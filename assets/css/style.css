@@ -1,0 +1,79 @@
+.header {
+    display: flex;
+    align-content: flex-start;
+    background: rgb(164, 177, 98);
+    color: white;
+    width: 25%;
+    margin: 10px 0 10px 0;
+    padding-left: 20px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    background: #e5d199;
+    color: green;
+    width: 50%;
+    padding-bottom: 10%;
+    padding-left: 20px;
+}
+
+
+/*Box containing the results*/
+
+.results {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+}
+
+#clickNumber {
+    font-size: 40px;
+    background: lightseagreen;
+    color: blue;
+    width: 40%;
+    font-weight: bold;
+    text-align: center;
+    line-height:84px;
+}
+
+#winLoss {
+    background: powderblue;
+    width: 13%;
+    margin:auto;
+    padding-left:15px;
+}
+
+#push {
+    width: 25%;
+}
+
+
+/*Box containing crystals*/
+
+.crystals {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+}
+
+
+/*Box containing User's Total Score*/
+
+#yourTotal {
+    background: darkturquoise;
+    width: 25%;
+    margin: 0 0 10px 0;
+}
+
+#userScore {
+    background: darkturquoise;
+    font-weight: bold;
+    width: 25%;
+    line-height: 175px;
+    text-align: center;
+    font-size: 40px;
+}
